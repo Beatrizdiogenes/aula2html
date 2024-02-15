@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="id_nome">Usuário</label>
+        <input type="text" id="id_nome" name="nome_usuario"> 
+
+        <label for="id_email">Email</label>
+        <input type="email" name="nome_email" id="id_email">
+        <br>
+
+        <label for="id_celular">Celular com DDD</label>
+        <input type="text" name="nome_celular" id="id_celular" placeholder=" (85) 99999-9999">
+
+   
+        <label for="id_tempo">Hora desejada</label>
+        <input type="time" name="nome_tempo" id="id_tempo">
+        <br>
+
+        <label for="id_site">Seu Site</label>
+        <input type="text" name="nome_site" id="id_site">
+
+        <label for="id_senha">Senha</label>
+        <input type="password" name="nome_senha" id="id_senha">
+        <br>
+
+        <label for="id_data">Data de Nascimento</label>
+        <input type="date" name="data_nasc" id="id_data">
+
+        <label for="id_cor">Cor favorita</label>
+        <input type="color" id="id_cor" name="nome_cor">
+        <br>
+    
+        <label for="id_filhos">Qtd de Filhos</label>
+        <input type="number" id="id_filhos" name="nome_filhos">
+
+        <label for="id_range">Seu peso</label>
+        <label >0</label>
+        <input type="range" name="nome_range"id="id_range">
+        <label >200</label>
+        <br>
+        <p>Sexo:</p>
+    
+        <input type="radio" id="feminino" name="Sexo">
+        <label for="feminino">Feminino</label>
+        <br>
+        <input type="radio" id="masculino" name="Sexo">
+        <label for="masculino">Masculino</label>
+        <br>
+    
+        <br>
+        <label for="id_estados">Selecione o seu Estado</label>
+        <br>
+        <select name="nome_estados" id="id_estados">
+            <option value="ceara">Ceará</option>
+            <option value="sp">São Paulo</option>
+            <option value="rio">Rio de Janeiro</option>
+            <option value="minas">Minas Gerais</option>
+            <option value="distrito">Distrito Federal</option>
+            <option value="amazonas">Amazonas</option>
+        </select>
+        <br>
+
+        <p>Mensagem:</p>
+        <textarea name="nome_mensagem" id="id_mensagem" cols="30" rows="10"></textarea>
+
+        <br>
+        <br>
+        <button>Enviar</button>
+        <input type="reset">
+    </form>
+
+</body>
+</html>
